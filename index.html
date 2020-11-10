@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="wrapper">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            
+            <a href="#">Manoj</a>
+            <a href="#">+917305538734</a>
+            <a href="#">manojkumarmsd9204@gmail.com</a>
+            <a href="#">Madurai - 625012</a>
+            <a href="#">TamilNadu</a>
+          </div>
+        <button class="openbtn" onclick="openNav()">☰</button> 
+      <div class="logo"><a href="#">Manoj</a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+          <a href="#" class="desktop-item">Skills Menu</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Skills Menu</label>
+          <ul class="drop-menu">
+            <li><a href="#">Html</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">MySQL</a></li>
+            <li><a href="#">Bootstrap</a></li>
+            <li><a href="#">Android</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="desktop-item">Experience</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Experience</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                              </div>
+              <div class="row">
+                <header>Company</header>
+                <ul class="mega-links">
+                  <li><a href="#">Develop Scripts LLC</a></li>
+                  <li><a href="#">NEE VEE Technologies</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Months</header>
+                <ul class="mega-links">
+                  <li><a href="#">six months</a></li>
+                  <li><a href="#">Two months</a></li>
+                  
+                </ul>
+              </div>
+              <div class="row">
+                <header>Location</header>
+                <ul class="mega-links">
+                  <li><a href="#">Chennai</a></li>
+                  <li><a href="#">Chennai</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <div class="body-text">
+    <div class="title">My portfolio</div>
+    <div class="sub-title">using only HTML & CSS</div>
+  </div>
+
+</body>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "500px";
+      document.getElementById("mySidepanel").style.height = "350px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+    }
+    </script>
+       
+</html>
